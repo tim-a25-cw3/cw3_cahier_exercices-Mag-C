@@ -1,7 +1,11 @@
 .laboratoire_reactif {
     background-color: var(--color-primary);
     color: var(--color-black);
+    .swiper {
+        margin-top: 100px;
+    }
 }
+
 .swiper-pagination {
     margin-top: 50px;
     position: static;
