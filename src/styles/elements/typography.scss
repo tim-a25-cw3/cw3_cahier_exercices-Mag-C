@@ -9,33 +9,58 @@ h4,
 h5,
 h6 {
     font-family: var(--font-primary);
-    line-height: 1;
+    line-height: 150%;
     font-weight: bold;
 }
 
 h1 {
     font-size: var(--font-size-h1);
     margin: 0;
-    color: var(--color-primary);
+    color: var(--color-white);
+    font-family: var(--font-secondary);
+    line-height: 100%;
 }
 
 h2 {
     font-size: var(--font-size-h2);
-    font-family: var(--font-secondary);
+    margin: 0;
+    font-weight: 300;
 }
 
 h3 {
-    font-size: var(--font-size-h3);
+    font-size: var(--font-size-h3-btn);
+    margin: 0;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
-h4 {
-    font-size: var(--font-size-h4);
+.button {
+    font-weight: 700;
 }
 
-h5 {
-    font-size: var(--font-size-h5);
+p {
+    font-size: var(--font-size-p);
+    margin: 0;
+    font-weight: 300;
 }
 
-h6 {
-    font-size: var(--font-size-h6);
+.logo {
+    font-size: var(--font-size-logo);
+    margin: 0;
+    font-weight: 600;
+}
+
+.mini {
+    font-size: var(--font-size-p-mini);
+    margin: 0;
+    font-weight: 300;
+}
+
+.contact {
+    font-size: var(--font-size-footer-contact);
+    margin: 0;
+}
+
+.semi {
+    font-weight: 600;
 }

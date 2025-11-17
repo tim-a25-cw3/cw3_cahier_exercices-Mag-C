@@ -1,0 +1,34 @@
+.hero {
+    height: 90vh;
+    position: relative;
+    @media (width<= $breakpoint-md) {
+        height: 60vh;
+    }
+    @media (width<= $breakpoint-sm) {
+        height: 40vh;
+    }
+    .wrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .hero__media {
+        img {
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+        }
+    }
+    .hero__content {
+        width: 60vh;
+
+        @media (width<= $breakpoint-sm) {
+            width: 40vh;
+        }
+    }
+}
